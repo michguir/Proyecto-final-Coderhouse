@@ -1,7 +1,5 @@
 # Blog-coder
-Se trata de una web tipo blog realizada utilizando el framework de Django como proyecto final del curso de Python en CoderHouse. 
-
-Creado por Tyler Cruz.
+Blog realizada utilizando el framework de Django como proyecto final del curso de Python en CoderHouse. 
 
 ## Instrucciones de uso
 
@@ -16,4 +14,3 @@ Para detener la aplicación, utilizar CTRL+C.
 
 ## Vídeo de prueba
 
-Cick [acá](https://youtu.be/I5XTrz-JZSU) para ver una desmotración de la página en funcionamiento 
