@@ -1,2 +1,0 @@
-# proyecto-final
-final project
