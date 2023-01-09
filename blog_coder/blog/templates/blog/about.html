@@ -1,0 +1,35 @@
+{% extends 'blog/base.html' %}
+
+{% block header %}
+
+{% load static %}
+
+<header class="masthead" style="background-image: url({% static 'blog/assets/img/about-bg.jpg' %})">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>{{title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% endblock header %}
+
+{% block main_content %}
+
+<article class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <p> Hola!, soy Michael Guiridlian tengo 29 años, trabajo para una empresa de desarrollo de software en Mar del Plata, llamada  <a href="https://www.bykom.com/">BYKOM</a> y actualmente me estoy adentrando en el mundo de la programación.</p>
+                <p> Para que me conozcan un poco, me interesa mucho la tecnología y aprender nuevas habilidadles. Soy amante de los perros y del café!.</p>
+                <p> El blog fue creado con los conocimientos adquiridos en el curso de <a href="https://www.coderhouse.com/">Coderhouse.</a> Con el fin de cumplir con las consignas indicadas <a href="https://docs.google.com/presentation/d/1THFACAeM3FDnCrrMnWzruhQT-uojrnpZWkQUTI6BjN4/edit#slide=id.p53">acá.</a></p>
+            </div>
+        </div>
+    </div>
+</article>
+
+{% endblock main_content %}
