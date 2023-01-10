@@ -1,7 +1,5 @@
-# Blog-coder
-Blog realizada utilizando el framework de Django como proyecto final del curso de Python en CoderHouse. 
 
-## Instrucciones de uso
+# Instrucciones de uso
 
 1. Clonar el proyecto.
 2. Situarse en la carpeta raíz.
@@ -12,6 +10,3 @@ Blog realizada utilizando el framework de Django como proyecto final del curso d
 Una vez inicializada la aplicación, tendrás disponible para visitar la url de [Inicio](http://127.0.0.1:8000/) y navegar dentro de las distintas páginas disponibles actualmente.
 
 Para detener la aplicación, utilizar CTRL+C.
-
-
-
